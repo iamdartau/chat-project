@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="555.0" prefWidth="1037.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <AnchorPane layoutX="-60.0" layoutY="-36.0">
+         <children>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@papers.co-bg35-iphone-xs-max-apple-official-art-yellow-bubble-29-wallpaper.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="login_tf" layoutX="250.0" layoutY="100.0" promptText="login">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_tf" layoutX="250.0" layoutY="150.0" promptText="password">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="sign_up_button" layoutX="250.0" layoutY="200.0" mnemonicParsing="false" onAction="#ClickOnSignUP" style="-fx-background-color: invisible;" text="sign up">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="login_button" layoutX="380.0" layoutY="200.0" mnemonicParsing="false" onAction="#ClickOnLogin" style="-fx-background-color: invisible;" text="sign in" textFill="#a116a1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+
+   </children>
+</AnchorPane>
