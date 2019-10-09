@@ -31,7 +31,7 @@ public class DbConfig {
 //
 //public class DbConfig {
 //
-//    private static final String conStr = "jdbc:mysql://10.144.14.101:3306/chat" +
+//    private static final String conStr = "jdbc:mysql://ipAddress:port/chat" +
 //            "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 //
 //    public static Connection conn;
