@@ -39,7 +39,7 @@ public class DbConfig {
 //    public  static  void createConnection() throws ClassNotFoundException, SQLException {
 //        Class.forName("com.mysql.cj.jdbc.Driver");
 //        conn = DriverManager.getConnection(conStr,
-//                "e2e_user","e2e@123");
+//                "user","password");
 //    }
 //
 //
